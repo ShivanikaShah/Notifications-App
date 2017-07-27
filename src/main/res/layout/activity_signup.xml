@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/al"
+    tools:context="com.example.shivanika.sih2017.SignupActivity">
+
+
+    <EditText
+        android:id="@+id/editTextUserName11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="25dp"
+        tools:textColorLink="@android:color/holo_red_dark"
+        android:hint="Name"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="25dp"
+        tools:textColorLink="@android:color/holo_red_dark"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"></EditText>
+
+    <EditText
+android:id="@+id/editTextPassword"
+android:layout_width="fill_parent"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="25dp"
+        tools:textColorLink="@android:color/holo_red_dark"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:inputType="textPassword" />
+
+    <EditText
+android:id="@+id/editTextConfirmPassword"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="25dp"
+        tools:textColorLink="@android:color/holo_red_dark"
+android:hint="Confirm Password"
+android:inputType="textPassword" />
+
+    <Button
+    android:id="@+id/buttonCreateAccount"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:padding="1dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:background="#212121"
+    android:text="Create Account"
+    android:layout_marginBottom="60dp" />
+
+</LinearLayout>
